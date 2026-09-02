@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "BEMARA",
+    "slug": "bemara",
+    "scheme": "bemara",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "icon": "./assets/brand/bemara-icon.png",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "me.bemara.mobile"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/brand/bemara-icon.png",
+        "backgroundColor": "#241820"
+      },
+      "package": "me.bemara.mobile"
+    },
+    "plugins": ["expo-router"],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}

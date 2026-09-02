@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background: var(--bemara-color-black-plum);
+  color: var(--bemara-color-ivory);
+  font-family: var(--bemara-font-interface);
+}
+
+body {
+  margin: 0;
+}
+
+.operations-page {
+  display: grid;
+  grid-template-columns: 260px 1fr;
+  min-height: 100vh;
+}
+
+.operations-rail {
+  align-content: start;
+  background: #1b1118;
+  border-right: 1px solid rgba(247, 241, 237, 0.12);
+  display: grid;
+  gap: 18px;
+  padding: 28px;
+}
+
+.operations-rail img {
+  height: 76px;
+  object-fit: contain;
+  width: 76px;
+}
+
+.operations-rail strong {
+  font-family: var(--bemara-font-support);
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.operations-content {
+  margin: 0 auto;
+  max-width: 1100px;
+  padding: 72px 40px;
+  width: 100%;
+}
+
+.eyebrow {
+  color: var(--bemara-color-rose-beige);
+  font-family: var(--bemara-font-support);
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 18px;
+  margin: 0 0 16px;
+  text-transform: uppercase;
+}
+
+.operations-content h1 {
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 56px;
+  margin: 0;
+}
+
+.operations-content > p {
+  color: rgba(247, 241, 237, 0.78);
+  font-size: 18px;
+  line-height: 30px;
+  margin: 18px 0 42px;
+  max-width: 680px;
+}
+
+.operations-grid {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.operations-grid article {
+  background: rgba(247, 241, 237, 0.08);
+  border: 1px solid rgba(247, 241, 237, 0.14);
+  border-radius: var(--bemara-radius-card);
+  min-height: 220px;
+  padding: 24px;
+}
+
+.operations-grid span {
+  color: var(--bemara-color-rose-beige);
+  font-family: var(--bemara-font-support);
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.operations-grid h2 {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 30px;
+  margin: 18px 0 12px;
+}
+
+.operations-grid p {
+  color: rgba(247, 241, 237, 0.72);
+  font-size: 15px;
+  line-height: 24px;
+  margin: 0;
+}
+
+@media (max-width: 900px) {
+  .operations-page {
+    grid-template-columns: 1fr;
+  }
+
+  .operations-rail {
+    align-items: center;
+    display: flex;
+  }
+
+  .operations-grid {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,39 @@
+:root {
+  --bemara-color-black-plum: #241820;
+  --bemara-color-bordeaux-noir: #5b3443;
+  --bemara-color-mauve-taupe: #9c7b85;
+  --bemara-color-rose-beige: #c8a69a;
+  --bemara-color-silk-cream: #f2e9e2;
+  --bemara-color-ivory: #f7f1ed;
+  --bemara-canvas: #f7f1ed;
+  --bemara-canvas-warm: #f2e9e2;
+  --bemara-ink: #241820;
+  --bemara-ink-soft: #9c7b85;
+  --bemara-brand: #5b3443;
+  --bemara-brand-deep: #241820;
+  --bemara-surface-warm: #c8a69a;
+  --bemara-border-subtle: rgba(36, 24, 32, 0.14);
+  --bemara-focus-ring: rgba(91, 52, 67, 0.34);
+  --bemara-radius-control: 8px;
+  --bemara-radius-card: 14px;
+  --bemara-radius-editorial-panel: 22px;
+  --bemara-space-1: 4px;
+  --bemara-space-2: 8px;
+  --bemara-space-3: 12px;
+  --bemara-space-4: 16px;
+  --bemara-space-5: 20px;
+  --bemara-space-6: 24px;
+  --bemara-space-8: 32px;
+  --bemara-space-10: 40px;
+  --bemara-space-12: 48px;
+  --bemara-space-16: 64px;
+  --bemara-space-20: 80px;
+  --bemara-font-interface:
+    Questrial, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --bemara-font-support:
+    Montserrat, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --bemara-motion-quick: 120ms;
+  --bemara-motion-standard: 220ms;
+  --bemara-motion-expressive: 420ms;
+  --bemara-motion-easing: cubic-bezier(0.2, 0, 0, 1);
+}
